@@ -1,7 +1,14 @@
 .rabbit-lyrics {
-    color: #41ffff;
-    
-}
+        position: absolute;
+        margin-left: 50px;
+        font-family: 'PT Sans', sans-serif;
+        color: rgba(255, 0, 0, 0.1);
+        margin-top:50px;
+        height:100%;
+        backdrop-filter: blur(8px);
+        overflow: hidden; 
+        
+    }
 
 .rabbit-lyrics__line--active {
   color: #FFC300;
@@ -27,7 +34,7 @@
         margin-top:50px;
         height:100%;
         backdrop-filter: blur(8px);
-        
+        overflow: hidden; 
         
     }
     .rabbit-lyrics__line--active {

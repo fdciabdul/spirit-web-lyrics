@@ -17,7 +17,7 @@
     <div class="loading">
       <div class="spinner"></div>
     </div>
-    <div class="play-pause-btn">  
+    <div id="gg" class="play-pause-btn">  
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
         <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-icon" id="playPause"/>
       </svg>
@@ -92,5 +92,26 @@
   <script  src="./script.js"></script>
 <script src="https://unpkg.com/rabbit-lyrics" type="text/javascript"></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./rain.js"></script>
+<script>(function () {
+        var viewFullScreen = document.getElementById("gg");
+        if (viewFullScreen) {
+            viewFullScreen.addEventListener("click", function () {
+                var docElm = document.documentElement;
+                if (docElm.requestFullscreen) {
+                    docElm.requestFullscreen();
+                }
+                else if (docElm.mozRequestFullScreen) {
+                    docElm.mozRequestFullScreen();
+                }
+                else if (docElm.webkitRequestFullScreen) {
+                    docElm.webkitRequestFullScreen();
+                }
+            }, false);
+        }
+        })();</script>
+                                               </section>
+    </div>
+
+
 </body>
 </html>

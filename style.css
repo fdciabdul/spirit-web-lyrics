@@ -5,7 +5,7 @@
         color: rgba(255, 0, 0, 0.1);
         margin-top:50px;
         height:100%;
-        backdrop-filter: blur(8px);
+        
         overflow: hidden; 
         
     }
@@ -33,7 +33,6 @@
         color: rgba(255, 0, 0, 0.1);
         margin-top:50px;
         height:100%;
-        backdrop-filter: blur(8px);
         overflow: hidden; 
         
     }

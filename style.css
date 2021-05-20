@@ -5,12 +5,10 @@
         color: rgba(255, 0, 0, 0.1);
         margin-top:50px;
         height:100%;
-        
         overflow: hidden; 
         
     }
-
-.rabbit-lyrics__line--active {
+    .rabbit-lyrics__line--active {
   color: #FFC300;
 }
 
